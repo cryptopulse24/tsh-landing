@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Signals Hub — Live Crypto & Forex Signals</title>
+<meta name="description" content="Real-time crypto & forex trading signals from 10+ professional providers. Free 3-day VIP trial. Get them on our app, Discord, or WhatsApp.">
+<!-- Meta Pixel: paste your Facebook Pixel code here when you create it -->
+<style>
+  :root { --gold:#C9A84C; --bg:#16150f; --card:#22211d; --body:#d8d4c8; --grey:#8a8779; --green:#22C55E; --red:#EF4444; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--body); font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:520px; margin:0 auto; padding:24px 20px 60px; }
+  .logo { text-align:center; font-size:15px; letter-spacing:3px; color:var(--gold); font-weight:800; text-transform:uppercase; padding:18px 0 6px; }
+  h1 { text-align:center; font-size:30px; line-height:1.25; color:#fff; margin:14px 0 10px; }
+  h1 span { color:var(--gold); }
+  .sub { text-align:center; color:var(--grey); font-size:15px; margin-bottom:26px; }
+  .badge { display:block; width:fit-content; margin:0 auto 8px; background:rgba(201,168,76,.12); border:1px solid rgba(201,168,76,.4); color:var(--gold); font-size:12px; font-weight:700; padding:5px 14px; border-radius:20px; }
+  .btn { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; padding:16px; border-radius:14px; font-size:16px; font-weight:800; text-decoration:none; margin-bottom:12px; border:1px solid transparent; }
+  .btn-gold { background:var(--gold); color:#000; }
+  .btn-dark { background:var(--card); color:#fff; border-color:#3a382f; }
+  .btn small { display:block; font-weight:500; font-size:11px; opacity:.75; }
+  .ticker { background:var(--card); border:1px solid #3a382f; border-radius:14px; padding:14px 16px; margin:26px 0; }
+  .ticker .row { display:flex; justify-content:space-between; font-size:14px; padding:7px 0; border-bottom:1px solid #33312a; }
+  .ticker .row:last-child { border-bottom:none; }
+  .buy { color:var(--green); font-weight:700; } .sell { color:var(--red); font-weight:700; }
+  .feat { display:flex; gap:12px; margin:14px 0; align-items:flex-start; }
+  .feat .ic { font-size:22px; line-height:1.2; }
+  .feat b { color:#fff; display:block; font-size:15px; }
+  .feat p { color:var(--grey); font-size:13px; }
+  h2 { color:#fff; font-size:20px; margin:34px 0 14px; text-align:center; }
+  .steps { counter-reset:s; }
+  .step { background:var(--card); border:1px solid #33312a; border-radius:12px; padding:14px 16px 14px 52px; margin-bottom:10px; position:relative; font-size:14px; }
+  .step::before { counter-increment:s; content:counter(s); position:absolute; left:14px; top:50%; transform:translateY(-50%); width:26px; height:26px; border-radius:50%; background:var(--gold); color:#000; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:13px; }
+  .disclaimer { background:rgba(239,68,68,.07); border:1px solid rgba(239,68,68,.25); border-radius:12px; padding:14px 16px; font-size:12px; color:var(--grey); margin:30px 0 18px; }
+  .pulse { display:block; text-decoration:none; margin:34px 0 6px; border-radius:16px; padding:1px; background:linear-gradient(135deg,#C9A84C 0%,#f4e3ae 25%,#C9A84C 50%,#8a6d24 75%,#C9A84C 100%); box-shadow:0 8px 30px rgba(201,168,76,.18); }
+  .pulse-in { background:linear-gradient(180deg,#201f19 0%,#16150f 100%); border-radius:15px; padding:22px 20px; text-align:center; }
+  .pulse-tag { font-size:10px; letter-spacing:3px; color:var(--gold); font-weight:800; text-transform:uppercase; }
+  .pulse-name { font-size:26px; font-weight:900; margin:6px 0 4px; background:linear-gradient(90deg,#f4e3ae,#C9A84C,#f4e3ae); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .pulse-desc { color:var(--grey); font-size:13px; margin-bottom:12px; }
+  .pulse-cta { display:inline-block; color:#000; background:var(--gold); font-size:13px; font-weight:800; padding:9px 22px; border-radius:20px; }
+  footer { text-align:center; font-size:12px; color:var(--grey); padding-top:10px; }
+  footer a { color:var(--gold); text-decoration:none; margin:0 8px; }
+  img, svg { max-width:100%; }
+  /* Small phones */
+  @media (max-width:380px) {
+    .wrap { padding:16px 14px 44px; }
+    h1 { font-size:24px; }
+    .sub { font-size:14px; }
+    .btn { padding:14px 10px; font-size:14px; }
+    .ticker .row { font-size:12px; flex-wrap:wrap; gap:2px; }
+    .pulse-name { font-size:22px; }
+    .step { font-size:13px; padding:12px 12px 12px 48px; }
+  }
+  /* Big screens: keep the elegant centered column */
+  @media (min-width:900px) {
+    .wrap { max-width:560px; }
+    h1 { font-size:34px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">⚡ Trading Signals Hub</div>
+  <span class="badge">🎁 3-DAY FREE VIP TRIAL — NO CARD NEEDED</span>
+  <h1>Live <span>Crypto & Forex</span> Signals, The Second They Happen</h1>
+  <p class="sub">Signals from 10+ professional providers — entries, take-profits and stop-losses — delivered instantly to your phone.</p>
+
+  <!-- ── The 3 doors ── -->
+  <a class="btn btn-gold" href="https://play.google.com/store/apps/details?id=com.tradingsignalshub.app" id="btn-app">
+    📱 Get the Android App <small>instant push alerts · free trial inside</small>
+  </a>
+  <a class="btn btn-dark" href="https://discord.gg/HUQJGGf2Eh" id="btn-discord">
+    💬 Join our Discord <small>iPhone friendly · trial starts automatically</small>
+  </a>
+  <a class="btn btn-dark" href="#" id="btn-whatsapp" style="display:none">
+    🟢 Follow on WhatsApp <small>daily updates on WhatsApp</small>
+  </a>
+
+  <!-- ── Example of what members see ── -->
+  <div class="ticker">
+    <div class="row"><span>₿ BTCUSDT</span><span class="buy">▲ BUY — Entry · TP1-3 · SL</span></div>
+    <div class="row"><span>🥇 XAUUSD (Gold)</span><span class="sell">▼ SELL — Entry · TP1-3 · SL</span></div>
+    <div class="row"><span>💶 EURUSD</span><span class="buy">▲ BUY — Entry · TP1-3 · SL</span></div>
+  </div>
+
+  <div class="feat"><div class="ic">⚡</div><div><b>Same-second delivery</b><p>Our system mirrors each provider's signal to the app and Discord instantly — no delays, no manual forwarding.</p></div></div>
+  <div class="feat"><div class="ic">🏆</div><div><b>10+ professional providers</b><p>Forex gold specialists and crypto analysts in one place — each with their own channel you can follow or mute.</p></div></div>
+  <div class="feat"><div class="ic">🔔</div><div><b>Alerts your way</b><p>Phone push notifications, Discord pings, provider-by-provider control. You choose what you hear.</p></div></div>
+  <div class="feat"><div class="ic">🤝</div><div><b>Transparent community</b><p>Real results posted openly. Support tickets answered by real people.</p></div></div>
+
+  <h2>How the free trial works</h2>
+  <div class="steps">
+    <div class="step">Tap a button above — app or Discord, your choice.</div>
+    <div class="step">Your <b>3-day VIP trial starts automatically</b> — every signal channel unlocked.</div>
+    <div class="step">Love it? Plans start at <b>$10/month</b>. Don't? Walk away — no card was ever asked.</div>
+  </div>
+
+  <!-- ── Sister platform: CryptoPulse24 ── -->
+  <a class="pulse" href="https://cryptopulse24.com" target="_blank" rel="noopener">
+    <div class="pulse-in">
+      <div class="pulse-tag">✦ From the same team ✦</div>
+      <div class="pulse-name">CryptoPulse24</div>
+      <p class="pulse-desc">Free professional crypto intelligence — live charts, liquidations, whale alerts, market data &amp; trading academy. 100% free, forever.</p>
+      <span class="pulse-cta">Explore CryptoPulse24 →</span>
+    </div>
+  </a>
+
+  <div class="disclaimer">
+    <b>⚠️ Risk disclosure:</b> Trading foreign exchange and cryptocurrencies carries a high level of risk and may not be suitable for all investors. Signals shared by providers are market analysis and educational content — <b>not financial advice</b>. Past performance does not guarantee future results. Never trade money you cannot afford to lose.
+  </div>
+
+  <footer>
+    © 2026 Trading Signals Hub ·
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="terms.html">Terms of Use</a>
+  </footer>
+</div>
+</body>
+</html>
